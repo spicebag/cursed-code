@@ -1,0 +1,39 @@
+HAI 1.2
+BTW THIS IS LOLCODE. FIND MORE ABOUT IT HERE (https://esolangs.org/wiki/LOLCODE)
+I HAS A NUM
+I HAS A FACTORIAL
+I HAS A COUNTER
+I HAS A RESULT
+
+GIMMEH NUM
+
+NUM R  NUM YR NUM
+
+NUM R  BOTH OF NUM AN 0
+O RLY?
+    YA RLY
+        VISIBLE "Cannot calculate factorial of a negative number!"
+        GTFO
+    NO WAI
+        VISIBLE "Calculating factorial of " NUM "..."
+    OIC
+OIC
+
+FACTORIAL R 1
+COUNTER R 1
+
+IM IN YR LOOP
+    BOTH SAEM COUNTER AN NUM, O RLY?
+        YA RLY
+            GTFO
+        NO WAI
+            FACTORIAL R PRODUKT OF FACTORIAL AN COUNTER
+            COUNTER R SUM OF COUNTER AN 1
+    OIC
+IM OUTTA YR LOOP
+
+RESULT R FACTORIAL
+
+VISIBLE "Factorial of " NUM " is " RESULT
+
+KTHXBYE
